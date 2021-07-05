@@ -86,8 +86,37 @@ div.img-back:hover .bicycle{
     display: block;
 }
 
+div.img-back:hover .ship{
+    display: block;
+}
 
+div.img-back:hover .submarine{
+    display: block;
+}
 
+div.img-back:hover .tractor{
+    display: block;
+}
+
+div.img-back:hover .tram{
+    display: block;
+}
+
+.tram{
+    background-image: url(../img/noun_Tram_3134750.png);
+}
+
+.tractor{
+    background-image: url(../img/noun_Tractor_3134797.png);
+}
+
+.submarine{
+    background-image: url(../img/noun_Submarine_3134738.png);
+}
+
+.ship{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+}
 
 .air_baloon{
     background-image: url(../img/noun_air_balloon_3134741.png);
@@ -115,4 +144,12 @@ div.img-back:hover .bicycle{
 
 .text-lightblue{
     color: turquoise;
+}
+
+.text-tomato{
+    color: tomato;
+}
+
+.text-gold{
+    color: gold;
 }
