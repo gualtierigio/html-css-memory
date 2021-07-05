@@ -20,6 +20,11 @@ footer div{
     text-align: center;
 }
 
+div.card h2{
+    text-align: center;
+    display: none;
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -38,17 +43,36 @@ footer div{
     width: 100%;
 }
 
-.card{
+div.card.img-back{
     margin: 0 7px;
     width: calc(25% - 14px);
     height: 100%;
     float: left;
     border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.308);
+}
+
+.card{
+    background-size: contain;
+    background-position: center;
+    background-color: white;
 }
 
 .img-back{
     background-image: url(../img/pattern.png);
-    background-size: contain;
+}
+
+div.card.img-back:hover .air_baloon{
+    display: block;
+}
+
+div.card.img-back:hover h2{
+    display: block;
+}
+
+div.card.img-back:hover .img-back{
+    display: none;
+    z-index: -100;
 }
 
 
@@ -61,6 +85,15 @@ footer div{
 
 
 
+
+.air_baloon{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: none;
+}
 
 .text-white{
     color: rgb(255, 255, 255);
