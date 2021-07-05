@@ -58,10 +58,6 @@ div.card.img-back{
     background-color: white;
 }
 
-.img-back{
-    background-image: url(../img/pattern.png);
-}
-
 div.card.img-back:hover .air_baloon{
     display: block;
 }
@@ -70,12 +66,13 @@ div.card.img-back:hover h2{
     display: block;
 }
 
-div.card.img-back:hover .img-back{
-    display: none;
-    z-index: -100;
+.img-back:hover{
+    background-image: none;
 }
 
-
+.img-back{
+    background-image: url(../img/pattern.png);
+}
 
 
 
