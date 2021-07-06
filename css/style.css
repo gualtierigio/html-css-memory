@@ -10,10 +10,12 @@ body{
 }
 
 header h1{
+    min-width: 700px;
     font-size: 70px;
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(63, 59, 59, 0.418);
 }
 
 footer div{
@@ -35,6 +37,7 @@ div h2{
     margin: 0 auto;
     width: 65%;
     margin-top: 30px;
+    min-width: 780px;
 }
 
 .cards-row{
@@ -49,7 +52,6 @@ div.img-back{
     height: 100%;
     float: left;
     border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.308);
 }
 
 .img-adapter{
@@ -68,6 +70,7 @@ div.img-back:hover h2{
 .img-back{
     background-image: url(../img/pattern.png);
     background-color: white;
+    box-shadow: 4px 4px 4px rgba(63, 59, 59, 0.418);
 }
 
 .discover{
